@@ -6,7 +6,7 @@
   justify-content: center;
   align-items: center;
   padding: 24px;
-  background-color: #fce7f3;
+  background-color: #fff1d6;
 }
 
 /* Welcome Card */
@@ -37,7 +37,7 @@
 /* Button Style */
 
 .welcome-button {
-  padding: 14px;
+  padding: 14px 28px;
   border: none;
   border-radius: 30px;
   background-color: #facc15;
