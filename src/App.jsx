@@ -1,4 +1,5 @@
 import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 import "./App.css";
 
 function App() {
@@ -6,14 +7,8 @@ function App() {
     <>
       <Navbar />
 
-      <main className="app">
-        <div className="welcome-card">
-          <h1>Lety's Postres</h1>
-
-          <p>Pasteles frescos hechos con amor</p>
-
-          <button className="welcome-button">Explora nuestros pasteles</button>
-        </div>
+      <main>
+        <Hero />
       </main>
     </>
   );
