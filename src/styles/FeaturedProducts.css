@@ -1,0 +1,82 @@
+/* Featured products section */
+
+.featured-products {
+  padding: 90px 24px;
+  background-color: #fffaf6;
+}
+
+.featured-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Section heading */
+
+.featured-heading {
+  max-width: 650px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+.featured-eyebrow {
+  display: block;
+  margin-bottom: 12px;
+  color: #be185d;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+.featured-heading h2 {
+  margin: 0 0 16px;
+  color: #333333;
+  font-size: clamp(30px, 4vw, 44px);
+  line-height: 1.2;
+}
+
+.featured-heading p {
+  color: #666666;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Desktop: four columns */
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 24px;
+}
+
+/* Tablet: two columns */
+
+@media (max-width: 1000px) {
+  .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* Mobile: one column */
+
+@media (max-width: 600px) {
+  .featured-products {
+    padding: 65px 20px;
+  }
+
+  .featured-heading {
+    margin-bottom: 32px;
+  }
+
+  .featured-heading p {
+    font-size: 15px;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+}
