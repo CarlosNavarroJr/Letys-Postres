@@ -1,4 +1,4 @@
-import "./Hero.css";
+import "../styles/Hero.css";
 import heroCake from "../assets/images/hero-cake.JPG";
 
 function Hero() {
