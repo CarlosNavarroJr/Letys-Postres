@@ -1,0 +1,144 @@
+/* ===== FOOTER ===== */
+
+.footer {
+  background-color: #fff5f0;
+  color: #444444;
+}
+
+/* Main footer grid */
+
+.footer-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 24px;
+
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.2fr 1fr;
+  gap: 40px;
+}
+
+/* Footer columns */
+
+.footer-column h3 {
+  margin: 0 0 20px;
+  color: #333333;
+  font-size: 19px;
+  font-weight: 700;
+}
+
+.footer-column p {
+  margin: 0 0 16px;
+  color: #555555;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+/* Bakery branding */
+
+.footer-logo {
+  margin: 0 0 20px;
+  color: #db2777;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.footer-about p {
+  max-width: 300px;
+}
+
+/* Quick links */
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links a {
+  color: #555555;
+  font-size: 15px;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-links a:hover {
+  color: #db2777;
+}
+
+/* Custom cake request link */
+
+.footer-request-link {
+  display: inline-block;
+  color: #9d174d;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+.footer-request-link:hover {
+  color: #be185d;
+}
+
+/* Copyright bar */
+
+.footer-bottom {
+  padding: 22px 24px;
+  background-color: #db2777;
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* ===== TABLET ===== */
+
+@media (max-width: 1000px) {
+  .footer-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 40px;
+    padding: 65px 24px;
+  }
+}
+
+/* ===== MOBILE ===== */
+
+@media (max-width: 600px) {
+  .footer-container {
+    grid-template-columns: 1fr;
+    gap: 36px;
+    padding: 55px 20px;
+  }
+
+  .footer-logo {
+    font-size: 26px;
+  }
+
+  .footer-column h3 {
+    margin-bottom: 14px;
+  }
+
+  .footer-bottom {
+    padding: 20px;
+  }
+
+  .footer-bottom p {
+    font-size: 13px;
+  }
+}
+
+/* Keyboard accessibility */
+
+.footer a:focus-visible {
+  outline: 3px solid #9d174d;
+  outline-offset: 4px;
+  border-radius: 3px;
+}
