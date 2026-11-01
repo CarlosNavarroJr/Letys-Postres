@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import FeaturedProducts from "./components/FeaturedProducts";
 import CustomCakes from "./components/CustomCakes";
+import Footer from "./components/Footer";
 
 import "./App.css";
 
@@ -27,6 +28,8 @@ function App() {
           </div>
         </section>
       </main>
+
+      <Footer />
     </>
   );
 }
