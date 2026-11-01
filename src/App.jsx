@@ -1,7 +1,9 @@
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import "./App.css";
 import FeaturedProducts from "./components/FeaturedProducts";
+import CustomCakes from "./components/CustomCakes";
+
+import "./App.css";
 
 function App() {
   return (
@@ -11,6 +13,19 @@ function App() {
       <main>
         <Hero />
         <FeaturedProducts />
+        <CustomCakes />
+
+        <section
+          className="cake-request"
+          id="cake-request"
+          aria-labelledby="cake-request-heading"
+        >
+          <div className="cake-request-container">
+            <h2>Vamos A Crear Algo Dulce</h2>
+
+            <p>Nuestra forma para describir tu pastel llegara pronto</p>
+          </div>
+        </section>
       </main>
     </>
   );

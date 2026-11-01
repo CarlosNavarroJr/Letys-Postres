@@ -1,1 +1,35 @@
-/* Application Layer */
+/* Temporary custom cake request section */
+
+.cake-request {
+  padding: 75px 24px;
+  background-color: #fffaf6;
+  text-align: center;
+}
+
+.cake-request-container {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.cake-request h2 {
+  margin: 0 0 16px;
+  color: #333333;
+  font-size: clamp(28px, 4vw, 40px);
+}
+
+.cake-request p {
+  margin: 0;
+  color: #555555;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+  .cake-request {
+    padding: 60px 20px;
+  }
+
+  .cake-request p {
+    font-size: 16px;
+  }
+}
