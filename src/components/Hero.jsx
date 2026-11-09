@@ -21,11 +21,11 @@ function Hero() {
 
           <div className="hero-buttons">
             <a href="#treats" className="hero-button-primary">
-              Explore Our Treats
+              Pasteles
             </a>
 
             <a href="#custom-cakes" className="hero-button-secondary">
-              Custom Cakes
+              Ordena tu Pastel
             </a>
           </div>
         </div>
