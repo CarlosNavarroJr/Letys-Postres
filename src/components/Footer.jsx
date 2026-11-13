@@ -37,7 +37,7 @@ function Footer() {
           <p>Interesado en encargar algo?</p>
           <p>Email y contacto vendra pronto</p>
 
-          <a href="#cake-request" className="footer-request-link">
+          <a href="#custom-cakes" className="footer-request-link">
             Pedidos Especialles
           </a>
         </div>
@@ -50,7 +50,7 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {currentYear} Dulce Delights. All rights reserved.</p>
+        <p>© {currentYear} Lety's Postres. All rights reserved.</p>
       </div>
     </footer>
   );

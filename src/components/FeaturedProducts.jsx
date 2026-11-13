@@ -11,13 +11,14 @@ function FeaturedProducts() {
     >
       <div className="featured-container">
         <div className="featured-heading">
-          <span className="featured-eyebrow">Baked Fresh, Made With Love</span>
+          <span className="featured-eyebrow">Hechos Frescos, Con Amor</span>
 
-          <h2 id="featured-heading">Our Sweet Favorites</h2>
+          <h2 id="featured-heading">Nuestras Delicias Favoritas</h2>
 
           <p>
-            From celebration cakes to delicious cupcakes, discover something
-            sweet for every occasion.
+            Desde pasteles para cualquier tipo de celebracion y tambien
+            antojitos deliciosos. Hacemos delicias para cualquier tipo de
+            celebracion.
           </p>
         </div>
 
